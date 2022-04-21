@@ -1,0 +1,24 @@
+﻿@if(Data != null)
+{
+     <div class="card bg-base-100 shadow-xl certificate ">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                    <h3>@Data.Name</h3>
+                </div>                
+            </div>
+            <LanguageSkill Label="Reading" Value="Data.Reading"></LanguageSkill>
+            <LanguageSkill Label="Writing" Value="Data.Writing"></LanguageSkill>
+            <LanguageSkill Label="Speaking" Value="Data.Speaking"></LanguageSkill>
+            
+        </div>
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Language data
+    /// </summary>
+    [Parameter]
+    public LanguageData? Data { get; set; }
+}

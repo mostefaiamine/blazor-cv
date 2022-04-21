@@ -1,0 +1,71 @@
+﻿@if (Data != null)
+{
+    <div class="card bg-base-100 shadow-xl element-info">
+        <div class="card-body">
+            @if (Data.Link != null)
+            {
+                <div class="portfolio-link">
+                    <a href="@Data.Link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            }
+            <div class="row">
+                <div class="col-12">
+                    <h2>@Data.Title @@ @Data.Institution</h2>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="row">
+                        <div class="col-6 col-lg-12">
+                            <div class="logo-container">
+                                <a class="company" href="@Data.InstitutionURL">
+                                    <img class="company-logo" src="images/logo/@(Data.InstitutionKey).png" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-12">
+                            <div class="countries">
+                                <img class="flag" src="images/flags/@(Data.InstitutionCountry).png" />
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-lg-9 description">
+                    <p>@Data.Summary</p>
+
+                    <p></p>
+                    <div class=tags>
+                        @if (Data.Tags != null)
+                        {
+                            foreach (var t in Data.Tags)
+                            {
+                                <span class="badge">@t</span>
+                            }
+                        }
+                    </div>
+                </div>
+                <div class="col-12">
+                    <PortfolioCarousel Captures="Data.Captures" Key="@Key"></PortfolioCarousel>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    /// <summary>
+    /// Portoflio data
+    /// </summary>
+    [Parameter]
+    public PortolioDataItem? Data { get; set; }
+
+    /// <summary>
+    /// Key
+    /// </summary>
+    [Parameter]
+    public string? Key { get; set; }
+
+
+}

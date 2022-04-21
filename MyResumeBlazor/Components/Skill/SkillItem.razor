@@ -1,0 +1,30 @@
+﻿@if (Data != null)
+{
+    <div class="row skill">
+        <div class="col-7">
+            @Data.Value
+        </div>
+        <div class="col-5">
+            @if ((Data.Level >= 0) && (Data.Level <= 5))
+            {
+                @for (var i = 0; i < Data.Level; i++)
+                {
+                    <i class="fa-solid fa-star skill-star"></i>
+                }
+                @for (var i = Data.Level; i < 5; i++)
+                {
+                    <i class="fa-solid fa-star"></i>
+                }
+            }
+        </div>
+    </div>
+
+}
+
+@code {
+    /// <summary>
+    /// Skill item
+    /// </summary>
+    [Parameter]
+    public SkillDataItem? Data { get; set; }
+}

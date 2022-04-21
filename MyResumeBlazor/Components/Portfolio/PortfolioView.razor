@@ -1,0 +1,17 @@
+﻿@if (Data != null)
+{
+    <div class="year-view">
+        @foreach (var element in Data)
+        {
+            <PortolioYear Data="element"></PortolioYear>
+        }
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Portfolio data
+    /// </summary>
+    [Parameter]
+    public PortfolioDataYear[]? Data { get; set; }
+}

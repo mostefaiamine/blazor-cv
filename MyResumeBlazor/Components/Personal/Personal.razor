@@ -1,0 +1,26 @@
+﻿@if (Info != null)
+{
+    <div class="card bg-base-100 shadow-xl personal-info">
+        <figure><img src="images/malaga.jpg" alt="Movie"></figure>
+        <div class="card-body">
+            <h2 class="card-title">About Me</h2>
+            <p>@Info.AboutMe</p>
+            <h2 class="card-title">And also</h2>
+            @if (Info.Facts != null)
+            {
+                <ul>
+                    @foreach (var item in Info.Facts)
+                    {
+                        <li>@item.Value</li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
+}
+
+@code {
+
+    [Parameter]
+    public PersonalInfo? Info { get; set; }
+}

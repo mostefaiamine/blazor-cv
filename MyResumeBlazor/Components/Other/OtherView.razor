@@ -1,0 +1,27 @@
+﻿@if (Data != null)
+{
+    <section class="other-section">
+        <h2 class="section-header">Certificates</h2>
+        <CertificateList Certificates="Data.Certificates"></CertificateList>
+    </section>
+    <section class="other-section">
+        <h2 class="section-header">Diplomas</h2>
+        <DiplomaList Data="Data.Diplomas"></DiplomaList>
+    </section>
+    <section class="other-section">
+        <h2 class="section-header">Languages</h2>
+        <LanguageList Data="Data.Languages"></LanguageList>
+    </section>
+    <section class="other-section">
+        <h2 class="section-header">Awards</h2>
+        <Awards Data="Data.Awards"></Awards>
+    </section>
+}
+
+@code {
+    /// <summary>
+    /// Data
+    /// </summary>
+    [Parameter]
+    public CVInfo? Data { get; set; }
+}

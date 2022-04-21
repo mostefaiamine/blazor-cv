@@ -1,0 +1,96 @@
+﻿@if ((Captures != null) && (Captures.Length > 1))
+{
+    @for (var i = 0; i < Captures.Length; i++)
+    {
+        <div class="overlay @GetActiveStyle(i)"  @onclick="()=>SetActive(-1)" @onmousewheel="()=>SetActive(-1)">
+            <div class="overlay-content">
+                <img src="images/capture/@Captures[i]" />
+            </div>
+        </div>
+    }
+    <ul class="carousel__thumbnails">
+        @for (var i=0; i< Captures.Length;i++)
+        {
+            var temp = i;
+            <li>
+                <label>
+                    <img src="images/capture/@Captures[i]" @onclick="()=>SetActive(temp)" />
+                </label>
+            </li>
+        }
+
+    </ul>
+
+
+    <!--
+    <section>
+        <div class="container">
+            <div class="carousel">
+                <input type="radio" name="slides" checked="checked" id="slide-Key-1">
+    for (var i = 2; i <= Captures.Length; i++)
+    {
+                    <input type="radio" name="slides" id="slide-@Key-@i">
+    }
+                <ul class="carousel__slides">
+    foreach (var capture in Captures)
+    {
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="images/capture/@capture" alt="">
+                                </div>
+
+                            </figure>
+                        </li>
+    }
+
+                </ul>
+                <ul class="carousel__thumbnails">
+    for (var i = 0; i < Captures.Length; i++)
+    {
+                        <li>
+                            <label for="slide-Key-(i+1)"><img src="images/capture/Captures[i]" alt=""></label>
+                        </li>
+
+    }
+                </ul>
+            </div>
+        </div>
+    </section>-->
+}
+@code {
+    /// <summary>
+    /// The captures
+    /// </summary>
+    [Parameter]
+    public string[]? Captures { get; set; }
+
+    /// <summary>
+    /// Active image
+    /// </summary>
+    public int Active { get; set; } = -1;
+
+    /// <summary>
+    /// The key
+    /// </summary>
+    [Parameter]
+    public string? Key { get; set; }
+
+    private string GetActiveStyle(int idx)
+    {
+        if (idx == Active)
+        {
+            return "layer-active";
+        }
+        else
+        {
+            return "layer-inactive";
+        }
+    }
+
+    private void SetActive(int idx)
+    {
+        Active = idx;
+    }
+
+}

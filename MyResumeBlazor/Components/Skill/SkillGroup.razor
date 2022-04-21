@@ -1,0 +1,33 @@
+﻿@if (Data != null)
+{
+    <div class="card bg-base-100 shadow-xl element-info skill-group">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                    <h2>@Data.Name</h2>
+                </div>
+                <div class="col-12">
+                    @if(Data.Items != null)
+                    {
+                        <div class="row skill-list">
+                            @foreach (var item in Data.Items)
+                            {
+                                <div class="col-12 col-lg-4">
+                                    <SkillItem Data="item"></SkillItem>
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Component data
+    /// </summary>
+    [Parameter]
+    public SkillDataGroup? Data { get; set; }
+}

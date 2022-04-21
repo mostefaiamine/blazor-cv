@@ -1,0 +1,61 @@
+﻿@page "/"
+
+<PageTitle>Amine's CV</PageTitle>
+
+@if (!Loading)
+{
+    @if (IsError)
+    {
+        <ErrorView></ErrorView>
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-lg-3 col-sm-12">
+                <MainCard Info="@CV?.Personal"></MainCard>
+            </div>
+            <div class="col-lg-9 col-sm-12">
+                <div class="tabs">
+                    <a class="tab tab-lg tab-bordered @GetCurrentTabClass(TAB_PERSONAL)" @onclick="()=>SetCurrentTab(TAB_PERSONAL)">Personal Information</a>
+                    <a class="tab tab-lg tab-bordered @GetCurrentTabClass(TAB_EXPERIENCE)" @onclick="()=>SetCurrentTab(TAB_EXPERIENCE)">Experience</a>
+                    <a class="tab tab-lg tab-bordered @GetCurrentTabClass(TAB_PORTFOLIO)" @onclick="()=>SetCurrentTab(TAB_PORTFOLIO)">Portfolio</a>
+                    <a class="tab tab-lg tab-bordered @GetCurrentTabClass(TAB_SKILLS)" @onclick="()=>SetCurrentTab(TAB_SKILLS)">Skills</a>
+                    <a class="tab tab-lg tab-bordered @GetCurrentTabClass(TAB_OTHER)" @onclick="()=>SetCurrentTab(TAB_OTHER)">Other</a>
+                </div>
+                <div class="tab-content">
+                    @switch (CurrentTab)
+                    {
+                        case TAB_PERSONAL:
+                            <Personal Info="CV?.Personal"></Personal>
+                            break;
+                        case TAB_EXPERIENCE:
+                            <ExperienceView Data="CV?.Experience"></ExperienceView>
+                            break;
+                        case TAB_PORTFOLIO:
+                            <PortfolioView Data="CV?.Portfolio"></PortfolioView>
+                            break;
+                        case TAB_SKILLS:
+                            <SkillView Data="CV?.Skills"></SkillView>
+                            break;
+                        case TAB_OTHER:
+                            <OtherView Data="CV"></OtherView>
+                            break;
+
+                    }
+                    @if (CurrentTab == 0)
+                    {
+
+                    }
+                    @if (CurrentTab == 1)
+                    {
+
+                    }
+                </div>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <Loader></Loader>
+}

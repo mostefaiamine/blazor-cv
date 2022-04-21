@@ -1,0 +1,21 @@
+﻿@if (Data != null)
+{
+    <div class="card bg-base-100 shadow-xl awards ">
+        <div class="card-body">
+            <ul>
+                @foreach(var elt in Data)
+                {
+                    <li><span>[@elt.Year]</span>&nbsp;@elt.Title</li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Awards
+    /// </summary>
+    [Parameter]
+    public AwardData[]? Data { get; set; }
+}

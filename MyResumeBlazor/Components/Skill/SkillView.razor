@@ -1,0 +1,15 @@
+﻿@if(Data != null)
+{
+    foreach(var group in Data)
+    {
+        <SkillGroup Data="group"></SkillGroup>
+    }
+}
+
+@code {
+    /// <summary>
+    /// Component data
+    /// </summary>
+    [Parameter]
+    public SkillDataGroup[]? Data { get; set; }
+}

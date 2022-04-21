@@ -1,0 +1,1407 @@
+{
+  "awards": [
+    {
+      "year": "2018",
+      "title": "Consultant of the year (EADN)"
+    },
+    {
+      "year": "2014",
+      "title": "Slideshare 1% best worldwide viewed presentations"
+    },
+    {
+      "year": "2013",
+      "title": "SlideShare most viewed presentations (35000 views)"
+    },
+    {
+      "year": "2012",
+      "title": "Tunis, ICSENT 12, Best Paper Award"
+    }
+  ],
+  "certificates": [
+    {
+      "issuer": "Microsoft",
+      "key": "az204",
+      "link": "https://www.credly.com/badges/fbfa855a-8ba0-4d08-8cc8-69aae9e9f657/public_url",
+      "title": "Microsoft Azure Developer Associate",
+      "year": "2022"
+    },
+    {
+      "issuer": "Microsoft",
+      "key": "az900",
+      "link": "https://www.credly.com/badges/33389eec-10a5-4be2-b49c-5c8c5f4d6f0d/public_url",
+      "title": "Azure Fundamentals",
+      "year": "2021"
+    }
+  ],
+  "diplomas": [
+    {
+      "year": "2020",
+      "institution": "USTHB",
+      "institutionUrl": "https://www.usthb.dz/",
+      "country": "algeria",
+      "title": "PHD in Software Engineering"
+    },
+    {
+      "year": "2015",
+      "institution": "INSA Lyon",
+      "institutionUrl": "https://www.insa-lyon.fr/",
+      "country": "france",
+      "title": "Start-up Incubation Manager"
+    },
+    {
+      "year": "2013",
+      "institution": "INSA Lyon",
+      "institutionUrl": "https://www.insa-lyon.fr/",
+      "country": "france",
+      "title": "Incubation Manager"
+    },
+    {
+      "year": "2012",
+      "institution": "IT Comp",
+      "institutionUrl": "http://www.itcomp-dz.com/",
+      "country": "algeria",
+      "title": "Certificate of Trainer (C# Programming)"
+    },
+    {
+      "year": "2010",
+      "institution": "Gemalto",
+      "institutionUrl": "http://www.gemalto.com/",
+      "country": "france",
+      "title": "Protiva Sales Solution"
+    },
+    {
+      "year": "2010",
+      "institution": "Gemalto",
+      "institutionUrl": "http://www.gemalto.com/",
+      "country": "france",
+      "title": "Certificate of Protiva Integrator"
+    },
+    {
+      "year": "2008",
+      "institution": "ALC",
+      "institutionUrl": "http://www.alc-dz.net/",
+      "country": "algeria",
+      "title": "Certificate of English language (L16, B2)"
+    },
+    {
+      "year": "2002",
+      "institution": "USTHB",
+      "institutionUrl": "http://www.usthb.dz/",
+      "country": "algeria",
+      "title": "Master in Software Engineering"
+    },
+    {
+      "year": "1999",
+      "institution": "USTHB",
+      "institutionUrl": "http://www.usthb.dz/",
+      "country": "algeria",
+      "title": "Computer Science Engineer"
+    }
+  ],
+  "personal": {
+    "aboutMe": "I am a big fan of software architecture. Most of my experience is related to complex projects concerning the development of challenging, evolutionary and flexible solutions. My technical background is based on .NET technologies, Azure Cloud, RESTful web services and / or Microsoft Sharepoint. I have been involved in very various projects: cloud-based systems, collaborative portals based on Sharepoint, modern applications based on ASP.NET Web API and front-ends based on Angular.",
+    "aboutMeShort": "Welcome to my online resume. I am a software architect and a very big fan of technologies such as .NET Core, Angular, Sharepoint and Azure",
+    "email": "mailto:mostefaiamine@gmail.com",
+    "facts": [
+      {
+        "label": "I live in",
+        "value": "I live in Malaga"
+      },
+      {
+        "label": "Certif",
+        "value": "I am a certified Azure developer"
+      },
+      {
+        "label": "Diploma",
+        "value": "I have a PHD in software engineering"
+      },
+      {
+        "label": "Exp",
+        "value": "I have more than 15 years experience in the development field"
+      },
+      {
+        "label": "My passion",
+        "value": "My passions are reading, cinema, football and history"
+      }
+    ],
+    "firstName": "Mohammed Amine",
+    "gitHub": "https://github.com/mostefaiamine",
+    "lastName": "Mostefai",
+    "linkedIn": "http://www.linkedin.com/in/mostefaiamine",
+    "mobilePhone": "+(213)661546064",
+    "pdf": "/files/cv-mostefai.pdf",
+    "title": "Senior Software Architect",
+    "twitter": "https://twitter.com/Mostefaiamine",
+    "webSite": "http://www.mostefaiamine.com"
+  },
+  "experience": [
+    {
+      "year": "2021",
+      "items": [
+        {
+          "company": "EPAM",
+          "companyKey": "epam",
+          "companyUrl": "https://www.epam.com/",
+          "countries": [
+            "spain",
+            "usa"
+          ],
+          "description": "As a software engineer, my mission is to help EPAM clients to address modern challenges using Microsoft technologies such as .NET and Azure",
+          "position": "Senior Software Engineer",
+          "technologies": [
+            "netcore",
+            "azure"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "items": [
+        {
+          "company": "SOFRECO",
+          "companyKey": "sofreco",
+          "companyUrl": "https://www.sofreco.com/",
+          "countries": [
+            "algeria",
+            "france"
+          ],
+          "description": "As an expert in IS and collaborative portals, my role in this mission was to support the Algerian general finances inspection in the process of designing an integrated information system and a collaborative portal.",
+          "position": "Information System Expert",
+          "technologies": [
+            "sharepoint",
+            "bpm"
+          ]
+        },
+        {
+          "company": "AGRODIV",
+          "companyKey": "agrodiv",
+          "companyUrl": "http://www.agrodiv.dz/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My mission at AGRODIV consists in auditing the existing information system and formalizing the appropriate recommendations for the evolution of this IS",
+          "position": "Information System Expert",
+          "technologies": [
+            "bpm"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "items": [
+        {
+          "company": "HESP",
+          "companyKey": "hesp",
+          "companyUrl": "https://www.hesp.com/",
+          "countries": [
+            "algeria",
+            "usa"
+          ],
+          "description": "My mission at HESP consists in designing and developing an integrated system that supports logging and perforating services of the company.  The system is based on modern technologies such as .NET Core, Angular and  Docker",
+          "position": "Senior Software Architect",
+          "technologies": [
+            "netcore",
+            "angular",
+            "docker",
+            "kubernetes",
+            "sqlserver"
+          ]
+        },
+        {
+          "company": "Air Algerie",
+          "companyKey": "airalgerie",
+          "companyUrl": "https://www.airalgerie.dz/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My mission at Air Algerie was to reorganize the IT teams in order to ameliorate the quality and the productivity of development teams. The main objective was to integrate the best organizational and architectural practices within the development activities.",
+          "position": "Enteprise Architect",
+          "technologies": [
+            "bpm",
+            "archimate"
+          ]
+        }
+
+      ]
+    },
+    {
+      "year": "2018",
+      "items": [
+        {
+          "company": "Renault",
+          "companyKey": "renault",
+          "companyUrl": "https://www.renault.dz/",
+          "countries": [
+            "france",
+            "algeria"
+          ],
+          "description": "My mission at Renault was to design and deploy several systems  based on Microsoft Azure, ASP.NET Core and Angular. The portals which are used by the Renault network across the country, permit to the Renault network users to track vehicles, to order them and to inject stock and pricing files",
+          "position": "Cloud Architect",
+          "technologies": [
+            "netcore",
+            "angular",
+            "azure",
+            "sqlazure"
+          ]
+        },
+        {
+          "company": "EADN",
+          "companyKey": "eadn",
+          "companyUrl": "https://www.eadn.dz/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My mission at EADN was to elaborate the information system cartography at the applications level. The applications architecture was designed using TOGAF and Archimate and was produced by my team which was composed of four members",
+          "position": "Team Leader",
+          "technologies": [
+            "archimate",
+            "togaf"
+          ]
+        },
+        {
+          "company": "ENTP",
+          "companyKey": "entp",
+          "companyUrl": "https://www.entp.dz/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My mission at ENTP (which is an energy company) was to develop the public-facing website which is based on a Sharepoint 2016 publishing site. The portal is composed of several modules such as news and galleries and uses client-side and server-side Sharepoint programming ",
+          "position": "Sharepoint Architect",
+          "technologies": [
+            "sharepoint",
+            "netframework"
+          ]
+        }
+
+      ]
+    },
+    {
+      "year": "2017",
+      "items": [
+        {
+          "company": "IKM TeckCheck",
+          "companyKey": "ikm",
+          "companyUrl": "https://www.ikmnet.com/",
+          "countries": [
+            "usa"
+          ],
+          "description": "My principal mission was to author tests for the process of automatic evaluation of Sharepoint developers. The authoring consisted in writing about 200 questions belonging to 15 different topics and having three levels of difficulty",
+          "position": "Sharepoint Test Author",
+          "technologies": [
+            "sharepoint"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "items": [
+        {
+          "company": "SOFRECO",
+          "companyKey": "sofreco",
+          "companyUrl": "https://www.sofreco.com/",
+          "countries": [
+            "france"
+          ],
+          "description": "My mission was to design and implement a statistics integrated information system based on Sharepoint 2013. The system includes an intranet publishing portal and data integration gates with external solutions.",
+          "position": "Senior Sharepoint Consultant",
+          "technologies": [
+            "sharepoint",
+            "sqlserver",
+            "netframework"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "items": [
+        {
+          "company": "SEAAL",
+          "companyKey": "seaal",
+          "companyUrl": "https://www.sofreco.com/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My mission was to design and implement a statistics integrated information system based on Sharepoint 2013. The system includes an intranet publishing portal and data integration gates with external solutions.",
+          "position": "Software Architect",
+          "technologies": [
+            "oracle",
+            "netframework"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2014",
+      "items": [
+        {
+          "company": "GOPA",
+          "companyKey": "gopa",
+          "companyUrl": "https://www.gopa.de/",
+          "countries": [
+            "germany"
+          ],
+          "description": "The mission consisted in the planning and the implementation of an intranet portal based on Sharepoint 2013. The target was ANEM, the Algerian national agency for employment. My expertise was to structure the project and to coach a team of two developers in Sharepoint development technologies. The portal included a publishing portal and a hierarchy of collaborative sites destined to the different departments of the Agency.",
+          "position": "Senior Expert in Sharepoint and Collaborative Systems",
+          "technologies": [
+            "sharepoint",
+            "sqlserver",
+            "netframework"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2013",
+      "items": [
+        {
+          "company": "AGB",
+          "companyKey": "agb",
+          "companyUrl": "https://www.agb.dz/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My mission at AGB consisted in supporting the development teams in the following areas: architectural design, technical problem solving and methodological organization. In this project, I worked in collaboration with the consultants of Microsoft and the internal agile-organized teams in order to provide the necessary support to a very important development project. The project consisted in modernizing the information system by using the latest Microsoft technologies. My interventions occurred at various levels: SQL Server as a database server and Microsoft .NET development for the core banking system",
+          "position": "Software Architect",
+          "technologies": [
+            "sqlserver",
+            "netframework",
+            "aspnet"
+          ]
+        },
+        {
+          "company": "IB Solutions",
+          "companyKey": "ibs",
+          "companyUrl": "https://www.ibsolutions-dz.com/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "The main objective of my missions at IBS was to deploy and to configure a Sharepoint 2013 farm at Ooredoo, which is one of the biggest mobile operators in Algeria. The farm was based on an Always-On database layer, an application server, a search server and two web front servers. The mission consisted also in deploying Project Server 2013 on this farm",
+          "position": "Sharepoint Architect",
+          "technologies": [
+            "sqlserver",
+            "sharepoint"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2012",
+      "items": [
+        {
+          "company": "CMI",
+          "companyKey": "cmi",
+          "companyUrl": "https://www.cmi.dz/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "The mission consisted in supporting the IT team of the hydraulic resources ministry in the activities related to maintaining the Sharepoint 2010 intranet portal.",
+          "position": "Sharepoint Architect",
+          "technologies": [
+            "sqlserver",
+            "sharepoint"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2011",
+      "items": [
+        {
+          "company": "IT Comp",
+          "companyKey": "itcomp",
+          "companyUrl": "http://www.itcomp-dz.com/",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My collaboration with IT comp was based on short training sessions in domains related to various Microsoft .NET Technologies such as C#, Visual Studio, WPF, ASP.NET and Sharepoint",
+          "position": "Trainer",
+          "technologies": [
+            "sqlserver",
+            "sharepoint",
+            "netframework"
+          ]
+        },
+        {
+          "company": "ANPT",
+          "companyKey": "anpt",
+          "companyUrl": "http://www.anpt.dz",
+          "countries": [
+            "algeria"
+          ],
+          "description": "The coaching consisted in accompanying emerging Algerian startups to develop and implement their innovative products / services to market. My main contribution was to discuss and give advice on the technical aspects of the projects",
+          "position": "Technical Coach",
+          "technologies": []
+        },
+        {
+          "company": "ESI",
+          "companyKey": "esi",
+          "companyUrl": "http://www.esi.dz",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My principal teaching missions at ESI relate to software engineering, project management, agile development, web and mobile development. As a manager of the FIE (The Entrepreneurship Branch), I coordinate and follow the innovative ideas brought by students in the last cycle and support them with the pre-incubation program",
+          "position": "Lecturer | Incubation Manager",
+          "technologies": []
+        }
+      ]
+    },
+    {
+      "year": "2009",
+      "items": [
+        {
+          "company": "OBP Technologies",
+          "companyKey": "obp",
+          "companyUrl": "http://www.obp.dz",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My mission at OBP consisted in managing and coordinating IT projects in offshore mode and using Microsoft .NET Technologies",
+          "position": "Chief-Technology Officer",
+          "technologies": [
+            "aspnet",
+            "sharepoint",
+            "netframework"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2007",
+      "items": [
+        {
+          "company": "Tesiame SPA",
+          "companyKey": "tesiame",
+          "companyUrl": "http://www.tesiame.dz",
+          "countries": [
+            "algeria",
+            "france"
+          ],
+          "description": "As a CTO, my main mission at Tesiame was to manage and to coordinate IT projects in the domain of smart cards. Our projects were in the scope of the partnership of Tesiame with Gemalto, which is the world leader in the domain of smart-card based security. Our main project was the deployment and the support of the smart card CHIFA, which is a healthcare identification smart card owned by the insurance national company CNAS",
+          "position": "Chief-Technology Officer",
+          "technologies": [
+            "gemalto"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2005",
+      "items": [
+        {
+          "company": "IQUALIX",
+          "companyKey": "iqualix",
+          "companyUrl": "http://www.iqualix.dz",
+          "countries": [
+            "france"
+          ],
+          "description": "My mission at Iqualix was to manage a team of developers and IT professionals and a portfolio of outsourced projects in the domain of healthcare. The team was developing and maintaining healthcare system embedded in specific smart card readers destined for the French healtcare card  ",
+          "position": "Chief-Technology Officer",
+          "technologies": [
+            "cpp"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2003",
+      "items": [
+        {
+          "company": "Engineering Energy LTD",
+          "companyKey": "engineering",
+          "companyUrl": "http://www.eeeltd.fr",
+          "countries": [
+            "france"
+          ],
+          "description": "Development of energy software solutions for a French engineering company",
+          "position": "Chief-Technology Officer",
+          "technologies": [
+            "delphi"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2001",
+      "items": [
+        {
+          "company": "CERIST",
+          "companyKey": "cerist",
+          "companyUrl": "http://www.cerist.dz",
+          "countries": [
+            "algeria"
+          ],
+          "description": "My main mission at CERIST was to ensure the development, the deployment and the management of a library management system called SYNGEB, which was deployed in almost all national libraries",
+          "position": "Developer",
+          "technologies": [
+            "delphi",
+            "sqlserver"
+          ]
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "reading": 5,
+      "speaking": 4,
+      "writing": 5
+    },
+    {
+      "name": "Arabic",
+      "reading": 5,
+      "speaking": 5,
+      "writing": 5
+    },
+    {
+      "name": "French",
+      "reading": 5,
+      "speaking": 5,
+      "writing": 5
+    },
+    {
+      "name": "Spanish",
+      "reading": 4,
+      "speaking": 3,
+      "writing": 4
+    }
+  ],
+  "portfolio": [
+    {
+      "year": "2022",
+      "items": [
+        {
+          "title": "Information System Cloud Migration",
+          "institution": "TJX",
+          "institutionURL": "http://www.tjx.com",
+          "institutionCountry": "usa",
+          "institutionKey": "tjx",
+          "summary": "The mission is about the modernization of the existing information system and migrating it to the cloud.  The backend is based on Azure .NET Functions and the clients include a WPF heavy client and blazor web-based client. Security is based on Azure Active Directory. CI/CD is implemented using Azure DevOps",
+          "tags": [
+            "Azure Functions",
+            "Cosmos DB",
+            "Azure AD",
+            "Azure DevOps"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "items": [
+        {
+          "title": "HESP Integrated System",
+          "institution": "HESP",
+          "institutionURL": "https://www.hesp.com",
+          "institutionCountry": "algeria",
+          "institutionKey": "hesp",
+          "summary": "HIS is a job workflow management system dedicated for the management of oil & gas logging jobs. HIS manages all the job lifecycle from the preparation (assignment of tools and crew) to the review. HIS is based on .NET Core, Angular, SQL Server, Docker and Kubernetes",
+          "tags": [
+            ".NET Core",
+            "Angular",
+            "Docker",
+            "NGINX",
+            "MongoDB",
+            "SQL Server"
+          ],
+          "captures": [
+            "his-1.jpeg",
+            "his-2.png",
+            "his-3.png",
+            "his-4.png",
+            "his-5.png"
+
+          ]
+        },
+        {
+          "title": "Development of a ASP.NET Core 5 Automated Hiring Tests",
+          "institution": "IKM TeckCheck",
+          "institutionURL": "http://www.ikmnet.com",
+          "institutionCountry": "usa",
+          "institutionKey": "ikm",
+          "summary": "The project was about the authoring of tests used to hire ASP.NET Core 5 developers. The result contained about 150 questions with three different levels covering several topics such as ASP.NET Core middleware, Razor views, Web APIs, security, page models and routing",
+          "tags": [
+            "ASP.NET Core",
+            "MVC",
+            "Page Models"
+          ]
+        },
+        {
+          "title": "Information System Design",
+          "institution": "IGF",
+          "institutionURL": "https://www.mf.gov.dz/index.php/fr/services-2/inspection-generale-des-finances",
+          "institutionCountry": "algeria",
+          "institutionKey": "igf",
+          "summary": "The main outcome of the mission is the development of an inegrated information system for the General Finances Inspection. The mission included several trainings (TOGAF + Archimate, Agile development, BPMN), the modeling of the existing information system architecture and the design of the future integrated information system",
+          "tags": [
+            "Information Systems",
+            "TOGAF",
+            "Archimate",
+            "BPM"
+          ]
+        },
+        {
+          "title": "Collaborative System Design",
+          "institution": "IGF",
+          "institutionURL": "https://www.mf.gov.dz/index.php/fr/services-2/inspection-generale-des-finances",
+          "institutionCountry": "algeria",
+          "institutionKey": "igf",
+          "summary": "My main contribution during this mission is to support the IGF (General Finances Inspection) IT teams in the redesign of their existing intranet portal according to the company strategy and requirements. One of the main deliverables of the mission is a specification document for the future intranet portal",
+          "tags": [
+            "Collaborative Systems",
+            "Information Systems",
+            "Audit"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "items": [
+        {
+          "title": "Development of a Sharepoint Developer Automated Hiring Tests",
+          "institution": "IKM TeckCheck",
+          "institutionURL": "http://www.ikmnet.com",
+          "institutionCountry": "usa",
+          "institutionKey": "ikm",
+          "summary": "This mission is about the upgrade of the existing questions to match Sharepoint 2016. The main output is the development of about 200 questions related to various Sharepoint 2016 knowledge areas",
+          "tags": [
+            "Sharepoint",
+            "Sharepoint Development",
+            "Automated Hiring Tests"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "items": [
+        {
+          "title": "Renault Agent Portal",
+          "institution": "Renault",
+          "institutionURL": "http://www.renault.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "renault",
+          "link": "http://portailvn.renault.dz",
+          "summary": "The Agent Portal is a web application for the Renault network. It is composed of two main parts : the Renault part and the network part. The network part has for role to sell and to preorder vehicles while the Renault part is used to inject stock, assign vehicles and validate orders.  The portal is developed using .NET Core, Angular and Azure",
+          "tags": [
+            ".NET Core",
+            "Angular",
+            "SQL Azure",
+            "Azure"
+          ],
+          "captures": [
+            "agent-1.jpg",
+            "agent-2.png",
+            "agent-3.png",
+            "agent-4.png"
+          ]
+        },
+        {
+          "title": "Information System Department Reorganization",
+          "institution": "Air Algerie",
+          "institutionURL": "http://www.airalgerie.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "airalgerie",
+          "summary": "My main contribution at Air Algerie was the elaboration and the application of an operational organization which support the evolution of the company. The reorganization started with an audit and has led to formalize the processes of the IT department (with a focus of development processes) and integrate new profiles such as DevOps engineers.",
+          "tags": [
+            "DevOps",
+            "TOGAF",
+            "Archimate"
+          ]
+        }
+
+      ]
+    },
+    {
+      "year": "2018",
+      "items": [
+        {
+          "title": "Information System Audit",
+          "institution": "Algerie Poste",
+          "institutionURL": "http://www.poste.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "ap",
+          "summary": "The purpose of the project was to audit the integration of two complex systems : a core banking system and a electronic banking solution linked by an applicative gateway. The audit has led to several findings such as the discovery of several bugs and performance issues. The audit report has also included a set of recommendations to ameliorate the systems integration.",
+          "tags": [
+            "Interoperability",
+            "Oracle",
+            "Core Banking",
+            "M-Banking"
+          ]
+        },
+        {
+          "title": "Renault Quality Portal",
+          "institution": "Renault",
+          "institutionURL": "http://www.renault.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "renault",
+          "link": "http://portailqualite.renault.dz/",
+          "summary": "Development of a portal which targets the quality of vehicle delivery. The portal is used by the Renault Algerian network and is using the technologies : .NET Core 2.2, Angular and Microsoft Azure.",
+          "tags": [
+            ".NET Core",
+            "Angular",
+            "SQL Azure",
+            "Azure"
+          ],
+          "captures": [
+            "quality-1.png",
+            "quality-2.jpg"
+          ]
+        },
+        {
+          "title": "Information System Cartography",
+          "institution": "Algerie Poste",
+          "institutionURL": "http://www.poste.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "ap",
+          "summary": "The purpose of the project is to perform an enterprise architecture cartography including the infrastructure, application and business layer. As a team leader, I was responsible of a team composed of 4 collaborators. Using a TOGAF-based methodology and Archimate as formalism, we have identified and analyzed about 130 applications and modeled their interactions.",
+          "tags": [
+            "TOGAF",
+            "archimate",
+            "Enteprise Architecture"
+          ]
+        },
+        {
+          "title": "ENTP Web Portal",
+          "institution": "ENTP",
+          "institutionURL": "http://www.entp.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "entp",
+          "link": "http://entp.dz/",
+          "summary": "Development of the Sharepoint 2016 based ENTP website which uses technologies such as webparts, server-side development and client-side development",
+          "tags": [
+            "Sharepoint 2016",
+            "Publishing sites"
+          ],
+          "captures": [
+            "entp-1.jpg",
+            "entp-2.jpg",
+            "entp-3.png",
+            "entp-4.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "items": [
+        {
+          "title": "Development of a Sharepoint Developer Automated Hiring Tests",
+          "institution": "IKM TeckCheck",
+          "institutionURL": "http://www.ikmnet.com",
+          "institutionCountry": "usa",
+          "institutionKey": "ikm",
+          "summary": "Development of a hiring test related to Sharepoint Development. The test which is composed of about 180 questions (with three different levels of difficulty) covers various topics such as Client-Side programming, Server-Side programming, Security and Worfklows.",
+          "tags": [
+            "Sharepoint",
+            "Sharepoint Development",
+            "Automated Hiring Tests"
+          ]
+        },
+        {
+          "title": "Statistics Intranet Portal",
+          "institution": "Ministry of Industry",
+          "institutionURL": "http://www.mdipi.gov.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "mim",
+          "summary": "Analysis, design and implementation of an integrated information system for the industry statistics based on Sharepoint 2013. The mission is structured in three phases: phase 1 : diagnostics, phase 2 : deployment and phase 3 : integration and supervision",
+          "tags": [
+            "Sharepoint 2013",
+            "Intranet Portal",
+            "Statistics"
+          ],
+          "captures": [
+            "mim-1.png",
+            "mim-2.png",
+            "mim-3.png",
+            "mim-4.png",
+            "mim-5.png",
+            "mim-6.png",
+            "mim-7.png",
+            "mim-8.png",
+            "mim-9.png",
+            "mim-10.png",
+            "mim-11.png",
+            "mim-12.png",
+            "mim-13.png",
+            "mim-14.png"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "items": [
+        {
+          "title": "Integration of the billing system with mobile operators messaging systems",
+          "institution": "SEAAL",
+          "institutionURL": "http://www.seaal.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "seaal",
+          "summary": "The mission consists in designing and developing restful web services using ASP.NET web API. The web services aim to integrate the billing system of SEAAL with the national mobile operators messaging systems. The REST web services has been validated using four heterogeneous clients: a web client (JQuery), a web client (Angular JS), a desktop client (WPF) and an Android client. I have used OAuth to secure the web services.",
+          "tags": [
+            ".NET Framework",
+            "SAO",
+            "Web Services"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "items": [
+        {
+          "title": "Implementation of a Sharepoint collaborative portal for the training management",
+          "institution": "ANEM",
+          "institutionURL": "http://www.anem.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "anem",
+          "summary": "The mission consists in implementing the training business processes and handle the training lifecycle by using Sharepoint 2013 collaborative portals, workflows, RESTful web services and document generation",
+          "tags": [
+            "Sharepoint 2013",
+            "Collaborative Portals",
+            "Worfklows"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2014",
+      "items": [
+        {
+          "title": "Deployment and Development of an Intranet Portal based on Microsoft Sharepoint",
+          "institution": "ANEM",
+          "institutionURL": "http://www.anem.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "anem",
+          "summary": "The mission is managed by PASEA (European Union) and GOPA (Germany). It aims at supporting the employment agency ANEM in the processes of designing, developing and deploying a publishing portal that acts as a centralized portal that provides news, polls, documents, announcements and events about the agency. This portal provides also a centralized access to external content using the business connectivity service",
+          "tags": [
+            "Sharepoint",
+            "Publishing Portals",
+            "Intranet"
+          ],
+          "captures": [
+            "3amali-1.png",
+            "3amali-2.png",
+            "3amali-3.png",
+            "3amali-4.png",
+            "3amali-5.png",
+            "3amali-6.png",
+            "3amali-7.png"
+          ]
+        },
+        {
+          "title": "Technical Team Coaching",
+          "institution": "AGB",
+          "institutionURL": "http://www.agb.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "agb",
+          "summary": "In collaboration with Microsoft teams, the mission consisted in defining the development process, the system architecture and monitoring the development teams with the purpose of the implementation of the new Core Banking system which is fully based on Microsoft technologies such as SQL Server and .NET Framework",
+          "tags": [
+            ".NET Framework",
+            "C#",
+            "SQL Server"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2013",
+      "items": [
+        {
+          "title": "Deploying a multi-tier Sharepoint 2013 Farm with Project Server 2013",
+          "institution": "Ooredoo",
+          "institutionURL": "http://www.ooredoo.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "ooredoo",
+          "summary": "The farm consists of two data-tier (Always On), one application tier, one search tier and two web front tiers. In addition, deploying a project server application on this farm.",
+          "tags": [
+            "Sharepoint",
+            "Windows Server",
+            "SQL Server"
+          ]
+        },
+        {
+          "title": "Deploying a multi-tier Sharepoint 2013 Farm",
+          "institution": "Chambre de Commerce",
+          "institutionURL": "http://www.caci.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "caci",
+          "summary": "The farm consists in the deployment of a Sharepoint 2013 farm composed of one data-tier, one application tier, one web front tier and one office web application tier.",
+          "tags": [
+            "Sharepoint",
+            "Windows Server",
+            "SQL Server"
+          ]
+        },
+        {
+          "title": "Audit of the information system migration CFP",
+          "institution": "Sonatrach",
+          "institutionURL": "http://www.sonatrach.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "sh",
+          "summary": "The project consists in auditing the specifications document, under the form of a call for proposal, which concerns upgrading the information system of Sonatrach. The audit focused on the risks aspect of the project",
+          "tags": [
+            "Project Management",
+            "Risk Management"
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2012",
+      "items": [
+        {
+          "title": ".NET Technologies Training Sessions",
+          "institution": "Sonatrach",
+          "institutionURL": "http://www.agb.dz",
+          "institutionCountry": "algeria",
+          "institutionKey": "agb",
+          "summary": "The mission consists in training the AGB teams on the most important .NET technologies such as ASP.NET, Entity Framework and WCF",
+          "tags": [
+            ".NET Framework",
+            "ASP.NET",
+            "C#"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "key": "backend",
+      "name": "Backend and Desktop Development",
+      "items": [
+        {
+          "key": "aspnetcore",
+          "value": "ASP.NET Core",
+          "level": 5
+        },
+        {
+          "key": "functions",
+          "value": "Azure Functions",
+          "level": 5
+        },
+        {
+          "key": "aspnetwebapi",
+          "value": "ASP.Net Web APIs",
+          "level": 5
+        },
+        {
+          "key": "logicapps",
+          "value": "Logic Apps",
+          "level": 5
+        },       
+        {
+          "key": "wpf",
+          "value": "WPF",
+          "level": 5
+        },
+        {
+          "key": "wf",
+          "value": "Windows Forms",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "key": "azure",
+      "name": "Azure Services",
+      "items": [
+        {
+          "key": "appservices",
+          "value": "App Services",
+          "level": 5
+        },
+        {
+          "key": "storage",
+          "value": "Storage",
+          "level": 5
+        },
+        {
+          "key": "appinsights",
+          "value": "App Insights",
+          "level": 5
+        },
+        {
+          "key": "azvms",
+          "value": "Azure VMs",
+          "level": 5
+        },
+        {
+          "key": "automation",
+          "value": "Azure Automation",
+          "level": 3
+        },
+        {
+          "key": "fdoor",
+          "value": "Front Door",
+          "level": 4
+        },
+        {
+          "key": "azcr",
+          "value": "Container Registry",
+          "level": 4
+        },
+        {
+          "key": "azci",
+          "value": "Container Instance",
+          "level": 4
+        },
+        {
+          "key": "azaks",
+          "value": "AKS",
+          "level": 3
+        },
+        {
+          "key": "azkv",
+          "value": "Azure Key Vault",
+          "level": 4
+        },
+        {
+          "key": "azcfg",
+          "value": "Azure App Config",
+          "level": 5
+        },
+        {
+          "key": "apimgmt",
+          "value": "API Management",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "key": "frontend",
+      "name": "Frontend Development",
+      "items": [
+        {
+          "key": "angular",
+          "value": "Angular",
+          "level": 5
+        },
+        {
+          "key": "blazor",
+          "value": "Blazor",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "key": "devops",
+      "name": "DevOps",
+      "items": [
+        {
+          "key": "azdevops",
+          "value": "Azure DevOps",
+          "level": 5
+        },
+        {
+          "key": "github",
+          "value": "GitHub",
+          "level": 5
+        },
+        {
+          "key": "ghactions",
+          "value": "GitHub Actions",
+          "level": 4
+        },
+        {
+          "key": "docker",
+          "value": "Docker",
+          "level": 5
+        },
+        {
+          "key": "kubernetes",
+          "value": "Kubernetes",
+          "level": 3
+        },
+        {
+          "key": "arm",
+          "value": "ARM Templates",
+          "level": 4
+        },
+        {
+          "key": "bicep",
+          "value": "Biceps Templates",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "key": "data",
+      "name": "Data and Integration",
+      "items": [
+        {
+          "key": "sqlserver",
+          "value": "SQL Server",
+          "level": 5
+        },
+        {
+          "key": "cosmos",
+          "value": "Cosmos DB",
+          "level": 5
+        },
+        {
+          "key": "mongo",
+          "value": "MongoDB",
+          "level": 4
+        },
+        {
+          "key": "factory",
+          "value": "Data Factory",
+          "level": 3
+        },
+        {
+          "key": "mysql",
+          "value": "MySQL",
+          "level": 4
+        },
+        {
+          "key": "sqlite",
+          "value": "SQLite",
+          "level": 4
+        },
+        {
+          "key": "oracle",
+          "value": "Oracle",
+          "level": 2
+        },
+        {
+          "key": "reporting",
+          "value": "Reporting Services",
+          "level": 5
+        },
+        {
+          "key": "analysis",
+          "value": "Analysis Services",
+          "level": 3
+        },
+        {
+          "key": "integration",
+          "value": " Integration Services",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "key": "msg",
+      "name": "Messaging",
+      "items": [
+        {
+          "key": "sb",
+          "value": "Service Bus",
+          "level": 5
+        },
+        {
+          "key": "eventhub",
+          "value": "Event Hub",
+          "level": 3
+        },
+        {
+          "key": "eventgrid",
+          "value": "Event Grid",
+          "level": 3
+        },
+        {
+          "key": "rabbit",
+          "value": "Rabbit MQ",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "key": "portals",
+      "name": "Portals and Collaboration",
+      "items": [
+        {
+          "key": "sp",
+          "value": "Sharepoint",
+          "level": 5
+        },
+        {
+          "key": "sponline",
+          "value": "Sharepoint Online",
+          "level": 5
+        },
+        {
+          "key": "office365",
+          "value": "Office 365",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "key": "mobile",
+      "name": "Mobile Development",
+      "items": [
+        {
+          "key": "xamarin",
+          "value": "Xamarin",
+          "level": 3
+        },
+        {
+          "key": "android",
+          "value": "Android",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "key": "pglg",
+      "name": "Programming Languages",
+      "items": [
+        {
+          "key": "cs",
+          "value": "C#",
+          "level": 5
+        },
+        {
+          "key": "ts",
+          "value": "TypeScript",
+          "level": 5
+        },
+        {
+          "key": "js",
+          "value": "JavaScript",
+          "level": 4
+        },
+        {
+          "key": "cpp",
+          "value": "C++",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "key": "sd",
+      "name": "Software Design",
+      "items": [
+        {
+          "key": "uml",
+          "value": "UML",
+          "level": 5
+        },
+        {
+          "key": "ea",
+          "value": "Enterprise Architect",
+          "level": 5
+        },
+        {
+          "key": "visio",
+          "value": "Visio",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "key": "pm",
+      "name": "Project Management and Agile Methods",
+      "items": [
+        {
+          "key": "scrum",
+          "value": "Scrum",
+          "level": 5
+        },
+        {
+          "key": "kanban",
+          "value": "Kanban",
+          "level": 5
+        },
+        {
+          "key": "msproject",
+          "value": "MS Project",
+          "level": 5
+        },
+        {
+          "key": "project-server",
+          "value": "Project Server",
+          "level": 4
+        },
+        {
+          "key": "trello",
+          "value": "Trello",
+          "level": 4
+        },
+        {
+          "key": "jira",
+          "value": "JIRA",
+          "level": 4
+        },
+        {
+          "key": "confluence",
+          "value": "Confluence",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "key": "sq",
+      "name": "Software Quality",
+      "items": [
+        {
+          "key": "xunit",
+          "value": "xUnit",
+          "level": 5
+        },
+        {
+          "key": "xunit",
+          "value": "NUnit",
+          "level": 5
+        },
+        {
+          "key": "moq",
+          "value": "Moq",
+          "level": 4
+        },
+        {
+          "key": "selenium",
+          "value": "Selenium",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "key": "sec",
+      "name": "Security",
+      "items": [
+        {
+          "key": "ad",
+          "value": "Azure Active Directory",
+          "level": 5
+        },
+        {
+          "key": "oauth",
+          "value": "OAuth",
+          "level": 4
+        }
+      ]
+    },
+    {
+      "key": "sd",
+      "name": "Business Analysis and Enterprise Architecture",
+      "items": [
+        {
+          "key": "bpm",
+          "value": "BPMN",
+          "level": 5
+        },
+        {
+          "key": "togaf",
+          "value": "TOGAF",
+          "level": 3
+        },
+        {
+          "key": "archimate",
+          "value": "Archimate",
+          "level": 5
+        }
+      ]
+    }
+  ]
+
+}

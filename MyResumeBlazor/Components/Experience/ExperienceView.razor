@@ -1,0 +1,17 @@
+﻿<div class="year-view">
+    @if (Data != null)
+    {
+        foreach (var key in Data)
+        {            
+            <ExperienceYear Data="key"></ExperienceYear>
+        }
+    }
+</div>
+
+@code {
+    /// <summary>
+    /// Data
+    /// </summary>
+    [Parameter]
+    public ExperienceDataYear[]? Data { get; set; }
+}

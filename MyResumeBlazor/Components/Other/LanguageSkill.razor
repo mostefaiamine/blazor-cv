@@ -1,0 +1,33 @@
+﻿
+<div class="row language-skill">
+    <div class="col-12">
+        <span>@Label</span>
+    </div>
+    <div class="col-12">
+        @if ((Value >= 0) && (Value <= 5))
+        {
+            for (var i = 0; i < Value; i++)
+            {
+                <i class="fa-solid fa-star skill-star"></i>
+            }
+            for (var i = Value; i < 5; i++)
+            {
+                <i class="fa-solid fa-star"></i>
+            }
+        }
+    </div>
+</div>
+
+@code {
+    /// <summary>
+    /// The label
+    /// </summary>
+    [Parameter]
+    public string? Label { get; set; }
+
+    /// <summary>
+    /// The value
+    /// </summary>
+    [Parameter]
+    public int Value { get; set; }
+}

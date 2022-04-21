@@ -1,0 +1,71 @@
+{
+  "personal": {
+    "facts": [
+      {
+        "label": "I live in",
+        "value": "I live in Malaga, Spain"
+      },
+      {
+        "label": "Certif",
+        "value": "I am a certified Azure developer"
+      },
+      {
+        "label": "Diploma",
+        "value": "I have a PHD in software engineering"
+      },
+      {
+        "label": "Exp",
+        "value": "I have more than 15 years experience in the development field"
+      },
+      {
+        "label": "Family status",
+        "value": "Married, 3 Children"
+      },
+      {
+        "label": "My passion",
+        "value": "My passions are reading, cinema, football and history"
+      }
+    ],
+    "lastName": "Mostefai",
+    "firstName": "Mohammed Amine",
+    "title": "Senior Software Architect",
+    "email": "mailto:mostefaiamine@gmail.com",
+    "mobilePhone": "+(213)661546064",
+    "webSite": "http://www.mostefaiamine.com",
+    "twitter": "https://twitter.com/Mostefaiamine",
+    "linkedIn": "http://www.linkedin.com/in/mostefaiamine",
+    "pdf": "/assets/data/cv-2019-en.pdf",
+    "aboutMeShort": "Welcome to my online resume. I am a software architect and a very big fan of technologies such as .NET Core, Angular, Sharepoint and Azure",
+    "aboutMe": "I am a big fan of software architecture. Most of my experience is related to complex projects concerning the development of challenging, evolutionary and flexible solutions. My technical background is based on .NET technologies, Azure Cloud, RESTful web services and / or Microsoft Sharepoint. I have been involved in very various projects: cloud-based systems, collaborative portals based on Sharepoint, modern applications based on ASP.NET Web API and front-ends based on Angular."
+  },
+  "experience": [
+    {
+      "year": "2019",
+      "items": [
+        {
+          "company": "HESP",
+          "companyKey": "hesp",
+          "companyUrl": "https://www.hesp.com/",
+          "countries": [
+            "algeria",
+            "usa"
+          ],
+          "description": "My mission at HESP consists in designing and developing an integrated system that supports logging and perforating services of the company.  The system is based on modern technologies such as .NET Core, Angular, Docker and Kubernetes.",
+          "position": "Senior Software Architect",
+          "technologies": [
+            "netcore",
+            "angular",
+            "docker",
+            "kubernetes",
+            "sqlserver"
+          ]
+        }
+
+      ]
+    }
+  ]
+
+
+
+
+}

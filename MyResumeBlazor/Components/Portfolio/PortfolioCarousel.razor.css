@@ -1,0 +1,89 @@
+﻿.overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50000;
+    overflow:hidden;
+}
+
+.overlay-content {
+    height: 100%;
+    
+}
+
+
+div.overlay img {
+    max-width: 85%;
+    max-height: 95%;
+    object-fit: contain;
+    width: unset;
+    margin: 15px auto;
+}
+
+.layer-active {
+    display: unset;
+}
+
+.layer-inactive {
+    display: none;
+}
+
+.carousel__thumbnails {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-top: 15px;
+}
+
+.carousel__slides + .carousel__thumbnails {
+    margin-top: 20px;
+}
+
+.carousel__thumbnails li {
+    flex: 1 1 auto;
+    max-width: calc((100% / 6) - 20px);
+    margin: 0 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.carousel__thumbnails label {
+    display: block;
+    position: relative;
+}
+
+    .carousel__thumbnails label:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    .carousel__thumbnails label > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel__thumbnails label:hover, .carousel__thumbnails label:focus {
+        cursor: pointer;
+    }
+
+        .carousel__thumbnails label:hover img, .carousel__thumbnails label:focus img {
+            box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+            transition: all 300ms ease-in-out;
+        }
+
+.carousel__thumbnails img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

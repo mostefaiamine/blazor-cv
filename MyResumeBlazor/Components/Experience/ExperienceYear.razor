@@ -1,0 +1,22 @@
+﻿@if ((Data != null) && (Data.Items != null))
+{
+    <div class="year-item">
+        <span class="year-label">@Data.Year</span>
+        @foreach (var item in Data.Items)
+        {
+            <ExperienceItem Data="item"></ExperienceItem>
+        }
+    </div>
+}
+
+
+@code {
+
+    /// <summary>
+    /// Data
+    /// </summary>
+    [Parameter]
+    public ExperienceDataYear? Data { get; set; }
+
+
+}

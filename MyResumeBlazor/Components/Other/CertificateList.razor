@@ -1,0 +1,19 @@
+﻿@if (Certificates != null)
+{
+    <div class="row">
+        @foreach (var certificate in Certificates)
+        {
+            <div class="col-12 col-md-6 col-lg-4">
+                <Certificate Data="certificate"></Certificate>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Certificate list
+    /// </summary>
+    [Parameter]
+    public CertificateData[]? Certificates { get; set; }
+}

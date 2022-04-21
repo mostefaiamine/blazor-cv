@@ -1,0 +1,54 @@
+﻿@if (Data != null)
+{
+    <div class="card bg-base-100 shadow-xl element-info">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                    <h2>@Data.Position @@ @Data.Company</h2>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <div class=row>
+                        <div class="col-6">
+                            <div class="logo-container">
+                                <a class="company" href="@Data.CompanyUrl">
+                                    <img class="company-logo" src="images/logo/@(Data.CompanyKey).png" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="countries">
+                                @if (Data.Countries != null)
+                                {
+                                    foreach (var c in Data.Countries)
+                                    {
+                                        <img class="flag" src="images/flags/@(c).png" />
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10 description">
+                    <p>@Data.Description</p>
+                    <div class="technos">
+                        @if (Data.Technologies != null)
+                        {
+                            foreach (var tch in Data.Technologies)
+                            {
+                                <img class="techno" src="images/techno/@(tch).png" />
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// experience data
+    /// </summary>
+    [Parameter]
+    public ExperienceDataItem? Data { get; set; }
+}

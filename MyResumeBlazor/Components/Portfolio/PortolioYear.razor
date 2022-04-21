@@ -1,0 +1,20 @@
+﻿@if ((Data != null) && (Data.Items != null))
+{
+    <div class="year-item">
+        <span class="year-label">@Data.Year</span>
+        @for (var i = 0; i< Data.Items.Length;i++)
+        {
+             var element = Data.Items[i];
+             var key = $"{Data.Year}-{i}";             
+            <PortfolioItem Data="element" Key="@key"></PortfolioItem>
+        }
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Component data
+    /// </summary>
+    [Parameter]
+    public PortfolioDataYear? Data { get; set; }
+}

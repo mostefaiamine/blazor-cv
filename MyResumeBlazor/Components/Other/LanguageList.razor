@@ -1,0 +1,19 @@
+﻿@if(Data != null)
+{
+    <div class="row">
+        @foreach(var element in Data)
+        {
+            <div class="col-12 col-md-6 col-lg-3">
+                <Language Data="element"></Language>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Languages
+    /// </summary>
+    [Parameter]
+    public LanguageData[]? Data { get; set; }
+}

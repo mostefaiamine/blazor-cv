@@ -1,0 +1,44 @@
+﻿@if (Info != null)
+{
+    <div class="card bg-base-100 shadow-xl amine-card">
+        <img class="img-card-full" src="images/amine.jpg" />
+        <div class="avatar img-avatar">
+            <div class="w-24 mask mask-squircle">
+                <img src="images/amine.jpg" />
+            </div>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">@Info.LastName&nbsp;@Info.FirstName</h2>
+            <h3 class="card-title">@Info.Title</h3>
+            <p>@Info.AboutMeShort</p>
+            <div class="actions">
+                <a class="hint  hint--bottom" data-hint="e-mail" target="_blank" href="@Info.Email">
+                    <i class="fa-solid fa-envelope sn-icon"></i>
+                </a>
+                <a class="hint  hint--bottom" data-hint="My website" target="_blank" href="@Info.WebSite">
+                    <i class="fa-solid fa-globe sn-icon"></i>
+                </a>
+                <a class="hint  hint--bottom" data-hint="LinkedIn" target="_blank" href="@Info.LinkedIn">
+                    <i class="fa-brands fa-linkedin sn-icon"></i>
+                </a>
+                <a class="hint  hint--bottom" data-hint="GitHub" target="_blank" href="@Info.GitHub">
+                    <i class="fa-brands fa-github sn-icon"></i>
+                </a>
+                <a class="hint  hint--bottom" data-hint="Twitter" target="_blank" href="@Info.Twitter">
+                    <i class="fa-brands fa-twitter sn-icon"></i>
+                </a>
+                <a class="hint  hint--bottom" data-hint="CV in PDF" target="_blank" href="@Info.Pdf">
+                    <i class="fa-solid fa-file-pdf sn-icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    /// <summary>
+    /// Personal information
+    /// </summary>
+    [Parameter]
+    public PersonalInfo? Info { get; set; }
+}
